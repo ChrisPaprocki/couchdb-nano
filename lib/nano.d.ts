@@ -38,6 +38,8 @@ declare namespace nano {
     dinosaur: Promise<any>;
     // http://docs.couchdb.org/en/latest/api/server/authn.html#cookie-authentication
     auth(username: string, userpass: string, callback?: Callback<DatabaseAuthResponse>): Promise<DatabaseAuthResponse>;
+    // https://docs.couchdb.org/en/latest/api/server/authn.html#jwt-authentication
+    authToken(token: string): Promise<DatabaseAuthResponse>;
     // http://docs.couchdb.org/en/latest/api/server/authn.html#get--_session
     session(callback?: Callback<DatabaseSessionResponse>): Promise<DatabaseSessionResponse>;
     // http://docs.couchdb.org/en/latest/api/server/common.html#get--_db_updates
@@ -153,6 +155,8 @@ declare namespace nano {
     follow(callback: Callback<any>): void;
     // http://docs.couchdb.org/en/latest/api/server/authn.html#cookie-authentication
     auth(username: string, userpass: string, callback?: Callback<DatabaseAuthResponse>): Promise<DatabaseAuthResponse>;
+    // https://docs.couchdb.org/en/latest/api/server/authn.html#jwt-authentication
+    authToken(token: string): Promise<DatabaseAuthResponse>;
     // http://docs.couchdb.org/en/latest/api/server/authn.html#get--_session
     session(callback?: Callback<DatabaseSessionResponse>): Promise<DatabaseSessionResponse>;
     // http://docs.couchdb.org/en/latest/api/database/common.html#post--db

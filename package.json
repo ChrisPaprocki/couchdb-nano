@@ -1,10 +1,10 @@
 {
-  "name": "nano",
-  "description": "The official CouchDB client for Node.js",
+  "name": "nano-with-JWT-auth",
+  "description": "An extension of nano with added basic support for JWT auth.",
   "license": "Apache-2.0",
-  "homepage": "http://github.com/apache/couchdb-nano",
-  "repository": "http://github.com/apache/couchdb-nano",
-  "version": "8.2.1",
+  "homepage": "http://github.com/ChrisPaprocki/couchdb-nano/tree/Add-JWT-auth",
+  "repository": "http://github.com/ChrisPaprocki/couchdb-nano/tree/Add-JWT-auth",
+  "version": "8.2.1-with-JWT-1.0.0",
   "author": "Apache CouchDB <dev@couchdb.apache.org> (http://couchdb.apache.org)",
   "keywords": [
     "couchdb",
